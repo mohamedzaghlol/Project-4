@@ -1,0 +1,75 @@
+
+
+body
+{
+    font-family: 'segoe ui light';
+}
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container
+{
+        overflow: auto;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+     }
+.item
+{
+    width: 25%;
+     float: left;
+     padding: 10px;
+    
+}
+.layer
+{
+    background-color: #fff;
+}
+.layer p , .layer h3
+{
+    padding: 10px;
+}
+.item img
+{
+    border-radius: 30%;
+    width: 100%;
+}
+
+
+@media   (max-width:1200px) and (min-width:992px)
+{
+
+    .item
+    {
+        width: 33.33333%;
+    }
+
+}
+
+
+@media (max-width:991px) and (min-width:768px)
+{
+
+    .item
+    {
+        width: 50%;
+    }
+
+}
+
+
+@media (max-width:767px)
+{
+
+    .item
+    {
+        width: 100%;
+    }
+
+}
+
+
+
